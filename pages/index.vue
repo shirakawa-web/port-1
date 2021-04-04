@@ -1,30 +1,16 @@
 <template>
-  <div class="container">
-    <div>
-      <Logo />
-      <h1 class="title">
-        portfolio1
-      </h1>
-      <div class="links">
-        <a
-          href="https://nuxtjs.org/"
-          target="_blank"
-          rel="noopener noreferrer"
-          class="button--green"
-        >
-          Documentation
-        </a>
-        <a
-          href="https://github.com/nuxt/nuxt.js"
-          target="_blank"
-          rel="noopener noreferrer"
-          class="button--grey"
-        >
-          GitHub
-        </a>
-      </div>
-    </div>
-  </div>
+  <header>
+    <h1 class="title">タイトル</h1>
+    <nav class="nav">
+      <ul class="menu-group">
+        <li class="menu-item"><a href="#">項目1</a></li>
+        <li class="menu-item"><a href="#">項目2</a></li>
+        <li class="menu-item"><a href="#">項目3</a></li>
+        <li class="menu-item"><a href="#">項目4</a></li>
+        <li class="menu-item"><a href="#">項目5</a></li>
+      </ul>
+    </nav>
+  </header>
 </template>
 
 <script>
@@ -32,42 +18,21 @@ export default {}
 </script>
 
 <style>
-.container {
-  margin: 0 auto;
-  min-height: 100vh;
+header {
   display: flex;
-  justify-content: center;
+  width: 100%;
+  height: 100px;
+  background-color: darkgrey;
   align-items: center;
-  text-align: center;
 }
 
 .title {
-  font-family:
-    'Quicksand',
-    'Source Sans Pro',
-    -apple-system,
-    BlinkMacSystemFont,
-    'Segoe UI',
-    Roboto,
-    'Helvetica Neue',
-    Arial,
-    sans-serif;
-  display: block;
-  font-weight: 300;
-  font-size: 100px;
-  color: #35495e;
-  letter-spacing: 1px;
+  margin-right: auto;
 }
 
-.subtitle {
-  font-weight: 300;
-  font-size: 42px;
-  color: #526488;
-  word-spacing: 5px;
-  padding-bottom: 15px;
-}
-
-.links {
-  padding-top: 15px;
+.menu-item {
+  list-style: none;
+  display: inline-block;
+  padding: 10px;
 }
 </style>
