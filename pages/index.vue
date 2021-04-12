@@ -17,12 +17,19 @@
 export default {}
 </script>
 
-<style>
+<style lang="scss">
+// メディアクエリ
+$pc: 'only screen and (min-width:769px) ';
+$sp: 'only screen and (max-width:769px) ';
+
+// 使用するカラー
+$mainColor:#002e73; 
+
 header {
   display: flex;
   width: 100%;
   height: 100px;
-  background-color: darkgrey;
+  background-color:$mainColor;
   align-items: center;
 }
 
