@@ -17,7 +17,7 @@
 export default {}
 </script>
 
-<style>
+<style lang="sass">
 header {
   display: flex;
   width: 100%;
@@ -26,9 +26,9 @@ header {
   align-items: center;
 }
 
-.title {
+.title 
   margin-right: auto;
-}
+
 
 .menu-item {
   list-style: none;
