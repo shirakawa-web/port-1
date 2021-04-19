@@ -4,7 +4,12 @@
   </div>
 </template>
 
-<style>
+<style lang="scss">
+
+// メディアクエリ
+$pc: 'only screen and (min-width:769px) ';
+$sp: 'only screen and (max-width:769px) ';
+
 html {
   font-family:
     'Source Sans Pro',
@@ -59,4 +64,6 @@ html {
   color: #fff;
   background-color: #35495e;
 }
+
+
 </style>

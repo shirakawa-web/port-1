@@ -1,45 +1,20 @@
 <template>
-  <header>
-    <h1 class="title">Acrovision</h1>
-    <nav class="nav">
-      <ul class="menu-group">
-        <li class="menu-item"><a href="#">HOME</a></li>
-        <li class="menu-item"><a href="#">COMPANY</a></li>
-        <li class="menu-item"><a href="#">SEVICE</a></li>
-        <li class="menu-item"><a href="#">WORKS</a></li>
-        <li class="menu-item"><a href="#">CONTACT</a></li>
-      </ul>
-    </nav>
-  </header>
+<div>
+  <Header />
+  <main>
+  </main>
+</div>
 </template>
 
 <script>
-export default {}
+import Header from "@/components/Header"
+
+export default {
+  components:{
+    Header
+  }
+}
 </script>
 
 <style lang="scss">
-// メディアクエリ
-$pc: 'only screen and (min-width:769px) ';
-$sp: 'only screen and (max-width:769px) ';
-
-// 使用するカラー
-$mainColor:white; 
-
-header {
-  display: flex;
-  width: 100%;
-  height: 100px;
-  background-color:$mainColor;
-  align-items: center;
-}
-
-.title {
-  margin-right: auto;
-}
-
-.menu-item {
-  list-style: none;
-  display: inline-block;
-  padding: 10px;
-}
 </style>
