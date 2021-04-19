@@ -1,13 +1,13 @@
 <template>
   <header>
-    <h1 class="title">タイトル</h1>
+    <h1 class="title">Acrovision</h1>
     <nav class="nav">
       <ul class="menu-group">
-        <li class="menu-item"><a href="#">項目1</a></li>
-        <li class="menu-item"><a href="#">項目2</a></li>
-        <li class="menu-item"><a href="#">項目3</a></li>
-        <li class="menu-item"><a href="#">項目4</a></li>
-        <li class="menu-item"><a href="#">項目5</a></li>
+        <li class="menu-item"><a href="#">HOME</a></li>
+        <li class="menu-item"><a href="#">COMPANY</a></li>
+        <li class="menu-item"><a href="#">SEVICE</a></li>
+        <li class="menu-item"><a href="#">WORKS</a></li>
+        <li class="menu-item"><a href="#">CONTACT</a></li>
       </ul>
     </nav>
   </header>
@@ -23,7 +23,7 @@ $pc: 'only screen and (min-width:769px) ';
 $sp: 'only screen and (max-width:769px) ';
 
 // 使用するカラー
-$mainColor:#002e73; 
+$mainColor:white; 
 
 header {
   display: flex;
