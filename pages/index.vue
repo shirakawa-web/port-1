@@ -1,19 +1,15 @@
 <template>
-<div>
-  <Header />
-  <main>
-  </main>
-</div>
+  <div>
+    <section>
+      <h2>Working Enviroment</h2>
+      <p>アクロビジョンはエンジニアに働きやすい環境を提供し、</p>
+      <p>お客様に満足度の高い技術支援をしてきます。</p>
+      <p>弊社は積極的に人材を採用しています。</p>
+    </section>
+  </div>
 </template>
 
 <script>
-import Header from "@/components/Header"
-
-export default {
-  components:{
-    Header
-  }
-}
 </script>
 
 <style lang="scss">
